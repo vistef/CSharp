@@ -1,0 +1,20 @@
+//6. Declare a Boolean variable called isFemale and assign an appropriate value corresponding to your gender. Print it on the console.
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        bool isFemale = false;
+
+        switch (isFemale)
+        {
+            case true:
+                Console.WriteLine("Female");
+                break;
+            case false:
+                Console.WriteLine("Male");
+                break;
+        }
+    }
+}
